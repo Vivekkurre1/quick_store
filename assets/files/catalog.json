@@ -1,0 +1,122 @@
+{
+    "product":[
+        {"id": 1,
+        "name": "iPhone 11 pro",
+        "desc": "apple iPhone 11 generation",
+        "price": 45000,
+        "color": "#33505a",
+        "image": "assets/images/iphone_11_pro.png",
+        "about": "The Good: The software is extremely smooth and stable. Battery life is good and not too exceptional. The 48MP camera is sharp and fast. The dynamic island is extremely helpful in many situations that involve multitasking."
+
+        },
+        {"id": 2,
+        "name": "iPhone 12 pro",
+        "desc": "apple iPhone 12 generation",
+        "price": 55000,
+        "color": "#33505a",
+        "image": "assets/images/iphone_12_pro.png",
+        "about": "The Good: The software is extremely smooth and stable. Battery life is good and not too exceptional. It’s certainly not as good as 13 Pro Max. The battery is currently lasting me 24 hours instead of 18 hours on my Android. The Safari password manager can save passwords for all sites and authenticate directly with Face Id."
+
+        },
+        {"id": 3,
+        "name": "Mi 11 ultra",
+        "desc": "The Mi 11 Ultra goes beyond flagships.",
+        "price": 59000,
+        "color": "#100F14",
+        "image": "assets/images/mi_11_ultra.png",
+        "about": "The phone comes with a 16.64 cm (6.55 inch) Full HD+ Display and features a 6 GB RAM | 128 GB ROM | Expandable Upto 512 GB. The phone is also decked with a 64MP + 8MP + 5MP | 16MP Front Camera for your images and videos. For power, the Phone relies on a 4250 mAh Li-Ion battery to give you that extra juice and power when you are on your phone."
+        },
+        {"id": 4,
+        "name": "OnePlus 7 pro",
+        "desc": "The OnePlus 7 Pro is the company's largest, most luxurious phone.",
+        "price": 35000,
+        "color": "#104066",
+        "image": "assets/images/oneplus_7_pro.png",
+        "about": "The OnePlus 7 Pro is ideal for the technology geek in you. It's 16.94 cm (6.67) QHD+ AMOLED display comes equipped with the HDR10+ technology, which delivers an immersive visual experience. Additionally, the 48 MP+ 8 MP+ 16MP rear camera and wide-angle lens allow you to click sharp and clear pictures."
+        },
+        {"id": 5,
+        "name": "OnePlus 9 pro 5G",
+        "desc": "The OnePlus 7 Pro is the company's largest, most luxurious phone.",
+        "price": 42000,
+        "color": "#2B2C31",
+        "image": "assets/images/oneplus_9_pro_5G.png",
+        "about": "Rear Quad Camera Co-Developed by Hasselblad, 48 MP Main camera, Qualcomm Snapdragon 888 Processor with Adreno 660 GPU 6.7 Inches Fluid AMOLED Display with 120Hz refresh rate with Latest LTPO technology Oxygen OS based on Andriod 11."
+        },
+        {"id": 6,
+        "name": "Redmi K20 pro",
+        "desc": "Redmi K20 and Redmi K20 Pro were introduced in India on 17th July 2019",
+        "price": 29000,
+        "color": "#E2EDF7",
+        "image": "assets/images/redmi_k20_pro.png",
+        "about": "The K20 Pro opens up new possibilities. The blazing-fast processor Qualcomm Snapdragon 855 gives you peak performance, while a 48 MP Triple camera setup lets you see things from a different perspective altogether."
+        },
+        {"id": 7,
+        "name": "Samsung Galaxy S10",
+        "desc": "Powerful computing and mobile photography with the Samsung Galaxy S10.",
+        "price": 29000,
+        "color": "#37597E",
+        "image": "assets/images/samsung_galaxy_s10.png",
+        "about": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10. It comes with an Intelligent Camera that automatically optimizes."
+        },
+        {"id": 8,
+        "name": "iPhone 11 pro",
+        "desc": "apple iPhone 11 generation",
+        "price": 45000,
+        "color": "#33505a",
+        "image": "assets/images/iphone_11_pro.png",
+        "about": "The Good: The software is extremely smooth and stable. Battery life is good and not too exceptional. The 48MP camera is sharp and fast. The dynamic island is extremely helpful in many situations that involve multitasking."
+
+        },
+        {"id": 9,
+        "name": "iPhone 12 pro",
+        "desc": "apple iPhone 12 generation",
+        "price": 55000,
+        "color": "#33505a",
+        "image": "assets/images/iphone_12_pro.png",
+        "about": "The Good: The software is extremely smooth and stable. Battery life is good and not too exceptional. It’s certainly not as good as 13 Pro Max. The battery is currently lasting me 24 hours instead of 18 hours on my Android. The Safari password manager can save passwords for all sites and authenticate directly with Face Id."
+
+        },
+        {"id": 10,
+        "name": "Mi 11 ultra",
+        "desc": "The Mi 11 Ultra goes beyond flagships.",
+        "price": 59000,
+        "color": "#100F14",
+        "image": "assets/images/mi_11_ultra.png",
+        "about": "The phone comes with a 16.64 cm (6.55 inch) Full HD+ Display and features a 6 GB RAM | 128 GB ROM | Expandable Upto 512 GB. The phone is also decked with a 64MP + 8MP + 5MP | 16MP Front Camera for your images and videos. For power, the Phone relies on a 4250 mAh Li-Ion battery to give you that extra juice and power when you are on your phone."
+        },
+        {"id": 11,
+        "name": "OnePlus 7 pro",
+        "desc": "The OnePlus 7 Pro is the company's largest, most luxurious phone.",
+        "price": 35000,
+        "color": "#104066",
+        "image": "assets/images/oneplus_7_pro.png",
+        "about": "The OnePlus 7 Pro is ideal for the technology geek in you. It's 16.94 cm (6.67) QHD+ AMOLED display comes equipped with the HDR10+ technology, which delivers an immersive visual experience. Additionally, the 48 MP+ 8 MP+ 16MP rear camera and wide-angle lens allow you to click sharp and clear pictures."
+        },
+        {"id": 12,
+        "name": "OnePlus 9 pro 5G",
+        "desc": "The OnePlus 7 Pro is the company's largest, most luxurious phone.",
+        "price": 42000,
+        "color": "#2B2C31",
+        "image": "assets/images/oneplus_9_pro_5G.png",
+        "about": "Rear Quad Camera Co-Developed by Hasselblad, 48 MP Main camera, Qualcomm Snapdragon 888 Processor with Adreno 660 GPU 6.7 Inches Fluid AMOLED Display with 120Hz refresh rate with Latest LTPO technology Oxygen OS based on Andriod 11."
+        },
+        {"id": 13,
+        "name": "Redmi K20 pro",
+        "desc": "Redmi K20 and Redmi K20 Pro were introduced in India on 17th July 2019",
+        "price": 29000,
+        "color": "#E2EDF7",
+        "image": "assets/images/redmi_k20_pro.png",
+        "about": "The K20 Pro opens up new possibilities. The blazing-fast processor Qualcomm Snapdragon 855 gives you peak performance, while a 48 MP Triple camera setup lets you see things from a different perspective altogether."
+        },
+        {"id": 14,
+        "name": "Samsung Galaxy S10",
+        "desc": "Powerful computing and mobile photography with the Samsung Galaxy S10.",
+        "price": 29000,
+        "color": "#37597E",
+        "image": "assets/images/samsung_galaxy_s10.png",
+        "about": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10. It comes with an Intelligent Camera that automatically optimizes."
+        }
+        
+        
+    ]
+}
