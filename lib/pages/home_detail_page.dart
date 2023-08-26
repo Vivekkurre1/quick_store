@@ -15,7 +15,16 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.transparent),
+      //appBar: AppBar(backgroundColor: Colors.transparent),
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        title: catalog.name.text.xl4
+            .color(
+              context.theme.canvasColor,
+            )
+            .bold
+            .make(),
+      ),
       backgroundColor: context.theme.canvasColor,
       bottomNavigationBar: Container(
         color: context.theme.cardColor,
@@ -49,10 +58,10 @@ class HomeDetailPage extends StatelessWidget {
                   color: context.theme.cardColor,
                   child: Column(
                     children: [
-                      catalog.name.text.xl4
-                          .color(context.theme.hintColor)
-                          .bold
-                          .make(),
+                      // catalog.name.text.xl4
+                      //     .color(context.theme.hintColor)
+                      //     .bold
+                      //     .make(),
                       catalog.desc.text
                           .textStyle(context.captionStyle)
                           .xl

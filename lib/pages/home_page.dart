@@ -7,13 +7,13 @@ import 'package:flutter/services.dart';
 import 'package:quick_store/core/store.dart';
 import 'package:quick_store/models/cart.dart';
 import 'package:quick_store/utils/routes.dart';
+import 'package:quick_store/widgets/drawer.dart';
 import 'package:velocity_x/velocity_x.dart';
 //import 'package:http/http.dart' as http;
 
 import 'package:quick_store/models/catalog.dart';
 import 'package:quick_store/widgets/themes.dart';
 
-import '../widgets/home_widgets/catalog_header.dart';
 import '../widgets/home_widgets/catalog_list.dart';
 
 class HomePage extends StatefulWidget {
@@ -50,6 +50,18 @@ class _HomePageState extends State<HomePage> {
     final _cart = (VxState.store as MyStore).cart;
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.deepPurple,
+          title: "Quick Store"
+              .text
+              .xl4
+              .bold
+              .color(
+                context.theme.canvasColor,
+              )
+              .make(),
+        ),
+        drawer: const MyDrawer(),
         backgroundColor: context.canvasColor,
         floatingActionButton: VxBuilder(
           mutations: const {AddMutation, RemoveMutation},
@@ -70,18 +82,14 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-        body: Container(
-          padding: Vx.m8,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const CatalogHeader(),
-              if (CatalogModel.items.isNotEmpty)
-                const CatalogList().py16().expand()
-              else
-                const CircularProgressIndicator().centered().expand(),
-            ],
-          ),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            if (CatalogModel.items.isNotEmpty)
+              const CatalogList().py16().expand()
+            else
+              const CircularProgressIndicator().centered().expand(),
+          ],
         ),
       ),
     );
